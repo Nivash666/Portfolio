@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    
+    font-family: "Poppins",sans-serif;
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-static .active a:focus{
+    color: white !important;
+ }
+ .nav-static .active a:hover{
+    color:black !important;
+ }
+.navbar a{
+    color:#fff;
+    font-weight: 600; 
+}
+.navbar-brand .img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background: url("./img/download.jpeg")
+}
+.nav-link:hover{
+    color:black !important;
+    
+}
+.nav-link:active{
+    color:white;
+}
+.nav
+    .main{
+    background:linear-gradient(to right,#F6EDEE,#F5F6F7,#F4E8F1);
+    padding:5rem;
+    color:#1D1D1D;
+    width:100vw;
+    height:100vh;
+    
+}
+h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+     
+}
+img{
+    width:350px;
+    
+}
+.para{
+    width:450px;
+    margin-top:1rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5em;
+    color:#333232;
+}
+button{
+    width:200px;
+    
+
+}
+.main-btn button{
+    font-weight: 600;
+   
+}
+.nav-item .btn{
+    width:120px;
+    padding: 0.3rem;
+}
+.nav-item{
+    padding:0px 10px;
+}
+
+.main-text{
+    margin-top: 5rem;
+}
+
+
+/*/about me page 
+/*/
+
+.aboutme{   
+    position: relative;
+    width:100vw;
+    
+}
+.school p{
+ margin-top:10rem;
+
+}
+.aboutme p{
+    color: #5A5A5A;
+    font-weight: 600;
+}
+.aboutme h1{
+    color:#858DF0;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+/*about me end*/
+
+/*Interest*/
+
+.interest{
+    background-color: #F2F3FE;
+}
+.interest h1{
+    color:#858DF0;
+    margin-top: 50px;
+    padding:50px;
+    font-size: 3rem;
+}
+.hobbies1-3{
+    padding:2rem;
+}
+.card{
+    border-radius: 20px;
+}
+.card-body h5{
+    color:#858DF0
+}
+.card-body p{
+    font-size: 1rem;
+    line-height: 1.5;
+    border:2px solid black;
+    margin-right: 20px;
+}
+
+/*Interest end*/
+
+
+
+/*Resume  */
+.resume{
+width:100vw;
+height:1550px;   
+color:#fff
+}
+.resume h1 span{
+    width:100px;
+}
+.head h1{
+    margin-top:5rem;
+    letter-spacing: 5px;
+  
+    font-size: 50px;
+}
+.head p{
+    letter-spacing: 3px;
+}
+.resume-main{
+    margin-top: 3rem;
+}
+.head1 p{
+    width:30px;
+    height:30px;
+    margin-top: 6.5rem;
+    border:2px solid #FF4500;
+    margin-left: 13px;
+}
+.p-1{
+    margin-right:13px;
+}
+.head p{
+    letter-spacing: 5px;
+}
+.round1{
+    width:25px;
+    height:25px;
+    margin-left: 5px;
+    border:3px solid #FF4500;
+}
+.round{
+    width:25px;
+    height:25px;
+    margin-left: 5px;
+
+    background: red;
+    overflow: hidden;
+}
+.icon-heading img{
+
+        object-fit: cover;
+        opacity: 0.4;
+     
+}
+.round-1{
+    width:600px;
+    position: relative;
+    
+}
+.college p{
+    font-weight: 700;
+    
+}
+.college{
+    margin-left:1rem;
+}
+
+.course{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:3400px;
+    color:#F4E8F1;
+}
+.course-1{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:3510px;
+    color:#F4E8F1;
+}
+.course-2{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:3620px;
+    color:#F4E8F1;
+}
+.certificate-1{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:4090px;
+    color:#F4E8F1;
+}
+.certificate-2{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:4200px;
+    color:#F4E8F1;
+}
+
+.certificate-3{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:4310px;
+    color:#F4E8F1;
+}
+
+.certificate-4{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:4420px;
+
+    color:#F4E8F1;
+}
+.certificate-1,.certificate-2,.certificate-3,
+.certificate-4
+{
+    position: absolute;
+    
+}
+.all-certificates{
+   margin-top: 4rem;
+   margin-left: 1rem;
+}
+
+.all-certificates p{
+    font-weight:700;
+    margin-top: 1rem;;
+ }
+
+ /* language */
+ .star-1{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:2950px;
+     left:750px;
+ }
+
+ .star-2{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:2950px;
+     left:775px;
+ }
+ .star-3{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:2950px;
+     left:800px;
+ }
+ .star-4{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:2950px;
+     left:825px;
+ }
+ .star-5{
+    position: absolute;
+    margin-left: 2.5rem;
+     top:3025px;
+     left:850px;
+ }
+ .star-6{
+    position: absolute;
+    margin-left: 2.5rem;
+    top:3025px;
+    left:825px;
+ }
+ .star-7{
+    position: absolute;
+    margin-left: 2.5rem;
+    top:3025px;
+    left:800px;
+   
+ }
+ .star-8{
+    position: absolute;
+    margin-left: 2.5rem;
+    top:3025px;
+    left:775px;
+    
+ }
+ .star-9{
+    position: absolute;
+    margin-left: 2.5rem;
+    top:3025px;
+    left:750px;
+   
+ }
+
+ .skills p {
+    font-weight: 600;
+ }
+ .star-1,.star-2,.star-3,.star-4{
+   top:4100px;
+    margin-left: 3rem;
+ }
+.star-5,.star-6,.star-7,.star-8,.star-9{
+    position: absolute;
+    top:4205px;
+    margin-left:3rem;
+} 
+ .Language{
+    width:485px;
+ }
+.language-2{
+    margin-top:1rem;
+}
+ .two{
+  margin-top: 4rem;
+ }
+ /* Skills */
+.progress-bar{
+    width:10vw;
+}
+.round2{
+    width:20px;
+    height:20px;
+    margin-left: 5px;
+    border:3px solid #FF4500;   
+}
+.resume-both{
+    margin-top: 5rem;
+}
+
